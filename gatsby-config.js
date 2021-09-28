@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Shubham Poultry`,
+    description: `When it comes to table eggs, Shubham Poultry delivers the best in taste, nutrition, quality and value to our consumers and food service partners.`,
+    author: `@amitbaral`,
+    siteUrl: `https://subispoultry.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
