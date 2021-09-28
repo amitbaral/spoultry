@@ -38,6 +38,10 @@ const TinyFont = styled.p`
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 11px;
 `
+const Logo = styled.div`
+  max-width: 300px;
+  margin-bottom: 30px;
+`
 const CornerImages = styled.div`
   background: red;
   .gatsby-image-wrapper {
@@ -85,14 +89,17 @@ const IndexPage = () => (
             src="../images/bottom-left.svg"
             alt="A dinosaur"
           />
-          <StaticImage
-            placeholder="blurred"
-            src="../images/bottom-right.svg"
-            alt="A dinosaur"
-          />
         </CornerImages>
 
         <HeroWraper>
+          <Logo>
+            <StaticImage
+              placeholder="blurred"
+              src="../images/logo_shubham.png"
+              alt="A dinosaur"
+            />
+          </Logo>
+
           <Title
             data-sal="slide-up"
             data-sal-delay="600"
@@ -109,12 +116,12 @@ const IndexPage = () => (
             We are launching soon
           </p>
 
-          <TinyFont>
+          {/* <TinyFont>
             By &nbsp;
             <a href="https://www.lastdoorsolutions.com.au/" target="_blank">
               Last Door Solutions
             </a>
-          </TinyFont>
+          </TinyFont> */}
         </HeroWraper>
       </Container>
     </MainWrapper>
